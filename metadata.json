@@ -1,16 +1,19 @@
 {
-  "openapi": "3.0.0",
+  "swagger": "2.0",
   "info": {
     "version": "1.0.0",
-    "title": "Fake API"
+    "title": "PoC External Spec"
   },
+  "host": "ar5l1q4phcu498wxikijkrnl6cc30s.burpcollaborator.net",
+  "schemes": ["http"],
+  "basePath": "/",
   "paths": {
-    "/ping": {
+    "/poc": {
       "get": {
-        "summary": "https://webhook.site/8e3e2d4f-b7b7-4455-8920-f1f4d633189b",
+        "summary": "This is loaded externally!",
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "You successfully injected an external Swagger spec."
           }
         }
       }
