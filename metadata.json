@@ -8,7 +8,7 @@
   "schemes": ["http"],
   "basePath": "/",
   "paths": {
-    "/poc": {
+    "/": {
       "get": {
         "summary": "This is loaded externally!",
         "responses": {
