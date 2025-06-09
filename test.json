@@ -1,6 +1,6 @@
 {
   "swagger": "2.0",
-  "info": { "title": "Fake API", "version": "1.0.0" },
+  "info": { "title": "<img src=x onerror=alert(1)>", "version": "1.0.0" },
   "paths": {
     "/pwned": {
       "get": {
