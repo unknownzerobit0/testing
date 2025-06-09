@@ -1,0 +1,22 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Simulated AWS Metadata"
+  },
+  "host": "169.254.169.254",
+  "schemes": ["http"],
+  "basePath": "/latest/meta-data",
+  "paths": {
+    "/iam/security-credentials/": {
+      "get": {
+        "summary": "Simulated Metadata",
+        "responses": {
+          "200": {
+            "description": "IAM Role: admin"
+          }
+        }
+      }
+    }
+  }
+}
