@@ -4,8 +4,8 @@
     "version": "1.0.0",
     "title": "PoC External Spec"
   },
-  "host": "ar5l1q4phcu498wxikijkrnl6cc30s.burpcollaborator.net",
-  "schemes": ["https"],
+  "host": "127.0.0.1:8000/swagger.json","localhost/openapi.json","169.254.169.254/latest/meta-data","internal-service/swagger.json"
+  "schemes": ["http"],
   "basePath": "/",
   "paths": {
     "/": {
