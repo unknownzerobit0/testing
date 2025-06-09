@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "title": "PoC External Spec"
   },
-  "host": "dwdo6t9smfz7eb10nnnmpusobfh85x.burpcollaborator.net","169.254.169.254/latest/meta-data","internal-service/swagger.json",
+  "host": "dwdo6t9smfz7eb10nnnmpusobfh85x.burpcollaborator.net",
   "schemes": ["https"],
   "basePath": "/",
   "paths": {          
