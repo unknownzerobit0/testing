@@ -1,10 +1,18 @@
 {
-  "instance-id": "i-1234567890abcdef0",
-  "iam": {
-    "security-credentials": {
-      "admin": {
-        "AccessKeyId": "FAKEKEY123",
-        "SecretAccessKey": "FAKESECRET456"
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Fake API"
+  },
+  "paths": {
+    "/ping": {
+      "get": {
+        "summary": "https://webhook.site/8e3e2d4f-b7b7-4455-8920-f1f4d633189b",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     }
   }
