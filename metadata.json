@@ -5,7 +5,7 @@
     "title": "PoC External Spec"
   },
   "host": "ar5l1q4phcu498wxikijkrnl6cc30s.burpcollaborator.net",
-  "schemes": ["http"],
+  "schemes": ["https"],
   "basePath": "/",
   "paths": {
     "/": {
