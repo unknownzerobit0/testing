@@ -1,11 +1,11 @@
-"/auth/login": {
-  "post": {
-    "summary": "Fake Login",
-    "parameters": [
-      { "in": "body", "name": "credentials", "required": true }
-    ],
-    "responses": {
-      "200": { "description": "Login successful" }
+{
+  "instance-id": "i-1234567890abcdef0",
+  "iam": {
+    "security-credentials": {
+      "admin": {
+        "AccessKeyId": "FAKEKEY123",
+        "SecretAccessKey": "FAKESECRET456"
+      }
     }
   }
 }
